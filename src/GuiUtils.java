@@ -137,6 +137,7 @@ public class GuiUtils {
             addArch(wr, matrix, region.x + curve, region.y + curve, curve, 180, 270, c);
     }
 
+    // ** Draw an image with a custom size e.g (16x16, 32x32) ** //
     public static void drawTexturedModalRect(PoseStack poseStack, int x, int y, float u, float v, int width, int height, float textureWidth, float textureHeight) {
         float f = 1.0F / textureWidth;
         float f1 = 1.0F / textureHeight;

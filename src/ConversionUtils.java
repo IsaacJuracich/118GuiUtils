@@ -2,6 +2,7 @@ import net.optifine.Config;
 
 public class ConversionUtils {
 
+    // ** Fixes FPS String ** //
     public static String getFPS() {
         return Config.getFpsString().split("/")[0] + " FPS";
     }
